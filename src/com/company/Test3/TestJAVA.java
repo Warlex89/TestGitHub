@@ -15,5 +15,6 @@ public class TestJAVA {
         double z = (b + sqrt(pow(b,2) + 4 * a * c)) / (2 * a) - (pow(a,3) * c) + pow(b,-2);
         out.println("Значение уравнения z = "+z);
         out.println((int)a);
+        out.println((int)b);
     }
 }
